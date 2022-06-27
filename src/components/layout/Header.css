@@ -1,0 +1,12 @@
+.Header h1{
+    color: red;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    text-shadow: 8px 8px 3px black;
+    margin-top: 20px;
+}
+
+.Header a {
+    text-decoration: none;
+}
