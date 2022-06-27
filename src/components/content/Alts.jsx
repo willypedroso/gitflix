@@ -43,10 +43,10 @@ export default () => {
                 <p>Abre o software Gitk que permite ver todas as alterações em uma janela gráfica.</p>
             </div>
             <span className="Back">
-                <Arrows img="Back" link="/fork" />
+                <Arrows img="Back" link="/commits" />
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/" />
+                <Arrows img="Foward" link="/ignore" />
             </span>
         </div>
     )

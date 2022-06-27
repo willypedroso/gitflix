@@ -6,11 +6,11 @@ import Init from "../content/Init";
 import Structure from "../content/Structure";
 import Add from "../content/Add";
 import Commit from "../content/Commit";
+import Alts from "../content/Alts";
 import Ignore from "../content/Ignore";
 import Github from "../content/Github";
 import Clone from "../content/Clone";
 import Fork from "../content/Fork";
-import Alts from "../content/Alts";
 import './Main.css'
 
 export default props => {
@@ -23,11 +23,11 @@ export default props => {
                 <Route path="/structure" element={<Structure />} />
                 <Route path="/add" element={<Add />} />
                 <Route path="/commit" element={<Commit />} />
+                <Route path="/alts" element={<Alts />} />
                 <Route path="/ignore" element={<Ignore />} />
                 <Route path="/github" element={<Github />} />
                 <Route path="/clone" element={<Clone />} />
                 <Route path="/fork" element={<Fork />} />
-                <Route path="/alts" element={<Alts />} />
             </Routes>
         </div>
     )

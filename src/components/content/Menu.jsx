@@ -10,11 +10,11 @@ export default () => {
             <Cards link="/structure" content="Estrutura do git"/>
             <Cards link="/add" content="Adicionar arquivos ao git"/>
             <Cards link="/commit" content="Commit de arquivos"/>
+            <Cards link="/alts" content="Visualizando alterações"/>
             <Cards link="/ignore" content="Git ignore"/>
             <Cards link="/github" content="Repositório Remoto (Github)"/>
             <Cards link="/clone" content="Clonando projetos"/>
             <Cards link="/fork" content="Fork e colaboração open source"/>
-            <Cards link="/alts" content="Visualizando alterações"/>
         </div>
     )
 }

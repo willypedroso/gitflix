@@ -79,7 +79,7 @@ export default () => {
                 <Arrows img="Back" link="/add" />
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/ignore" />
+                <Arrows img="Foward" link="/alts" />
             </span>
         </div>
     )

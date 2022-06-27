@@ -9,7 +9,7 @@ export default () => {
             <div className="Instruction">
 
                 <p>Primeiramente vá até o repositório que deseja realizar o fork utilizando o seu navegador.</p>
-                <p>Procure pelo botão "Fork" (ou o seu equivalente) na plataforma.</p>
+                <p>Procure pelo botão "Fork" (ou o seu equivalente) na plataforma em que o repositório está hospedado.</p>
                 <p>Isso criará um novo repositório remoto em sua conta da plataforma (github, gitlab, etc).</p>
                 <p>Esse repositório será a copia do repositório atual que foi dado o fork.</p>
             </div>
@@ -55,12 +55,22 @@ export default () => {
                 <div className="Code">$ git pull upstream master</div>
 
                 <p>Baixa para o seu repositório local quaisquer alterações realizadas no repositório remoto original.</p>
+
+                <div className="Code">$ git fetch</div>
+
+                <p>Captura todos os branchs e tags novos no projeto remoto sem fazer merge.</p>
+
+                <div className="Code">$ git fetch origin (nome_do_branch)</div>
+
+                <p>Puxa as mudanças para um branch específico apontado.</p>
+
+                <p><em>O ideal é criar um branch novo para isso.</em></p>
             </div>
             <span className="Back">
                 <Arrows img="Back" link="/clone" />
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/alts" />
+                <Arrows img="Foward" link="/" />
             </span>
         </div>
     )

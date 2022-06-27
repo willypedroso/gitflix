@@ -19,7 +19,7 @@ export default () => {
                 <p>É importante adicionar uma subpasta por linha e não esquecer de adcionar as barras "/" junto aos nomes.</p>
             </div>
             <span className="Back">
-                <Arrows img="Back" link="/commit" />
+                <Arrows img="Back" link="/alts" />
             </span>
             <span className="Foward">
                 <Arrows img="Foward" link="/github" />
