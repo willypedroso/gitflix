@@ -1,6 +1,6 @@
-# Gitflix
-
 [![Gitflix](./gitflix-logo.png)](https://gitflix.vercel.app)
+
+***
 
 Site desenvolvido para auxiliar a todos os que desejam aprender Git.
 
