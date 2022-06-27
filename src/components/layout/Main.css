@@ -1,0 +1,115 @@
+.Content {
+  font-family: monospace, sans-serif;
+  max-width: 900px;
+  min-width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  margin: auto;
+  padding: 30px;
+  line-height: 1.5rem;
+  position: relative;
+}
+
+.Content h1{
+  padding: 15px;
+  margin-bottom: 15px;
+  font-family: 'Bebas Neue', monospace;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.Content h2 {
+  margin: 0px 30px 30px 30px;
+  line-height: 2rem;
+}
+
+.Content h3 {
+  margin-left: 10px;
+}
+
+.Content p{
+  padding: 15px;
+  padding: 15px;
+}
+
+.Content code {
+  background-color: #000000bb;
+  color: #3ef710;
+  font-weight: bolder;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 5px;
+  line-height: 2rem;
+}
+
+.Code {
+  background-color: #000000bb;
+  color: #3ef710;
+  font-weight: bolder;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 5px;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.Content a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 3px;
+  background-color: #808080d0;
+  border-radius: 5px;
+}
+
+.Content a:hover {
+  background-color: #ff000089;
+}
+
+.Instruction {
+  max-width: 880px;
+  background-color: #888888af;
+  border: 3px solid #ff0000;
+  border-radius: 15px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Back img {
+  width: 100px;
+  position: relative;
+  left: 27%;
+  margin: 20px;
+}
+
+.Foward img {
+  width: 100px;
+  position: absolute;
+  left: 56%;
+  margin: 20px;
+}
+
+.Back a {
+  background: none;
+}
+
+.Back a:hover {
+  background: none;
+}
+
+.Foward a {
+  background: none;
+}
+
+.Foward a:hover {
+  background: none;
+}
+
+.FirstFoward img {
+  width: 100px;
+  position: absolute;
+  left: 53%;
+}
