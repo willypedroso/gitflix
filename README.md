@@ -2,6 +2,10 @@
 
 ***
 
-Site desenvolvido para auxiliar a todos os que desejam aprender Git.
+Site desenvolvido para auxiliar no aprendizado de Git.
 
 Desde o iniciante para aprender os comandos básicos aos já mais experientes que precisam relembrar algum comando.
+
+Colaborações com o projeto serão bem-vindas.
+
+**Projeto Beta - ainda não finalizado**
