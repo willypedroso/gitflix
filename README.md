@@ -8,4 +8,4 @@ Desde o iniciante para aprender os comandos básicos aos já mais experientes qu
 
 Colaborações com o projeto serão bem-vindas.
 
-**Projeto Beta - ainda não finalizado**
+**Projeto em sua versão Beta - ainda não finalizado**
