@@ -9,6 +9,7 @@ export default () => {
 
             <div className="Instruction">
                 <h2>Se o repositório remoto usado for o Github, seguir os seguintes passos:</h2>
+<<<<<<< HEAD
                 <p>Primeiramente acesse sua conta do github pelo navegador e vá em:
                     <ul style={{margin: '25px'}}>
                         <li>Menu (normalmente no canto superior direito da tela, em sua foto de perfil do Github)</li>
@@ -18,15 +19,26 @@ export default () => {
                         <li>Generate new token</li>
                     </ul>
                 </p>
+=======
+                <p>Primeiramente acesse a sua conta do github pelo browser e crie um novo repositório.</p>
+                <p>Feito isso, acesse em sua conta do github: Menu &gt; Settings &gt; Developer Settings &gt; Personal access tokens &gt; Generate new token.</p>
+>>>>>>> 229d8bed397ad814294b4bd915c8f290a08cbf46
                 <p>Dê um nome para o seu token, marque todos as caixinhas de permissões e gere o token.</p>
                 <p>
                 <h3>COPIE O TOKEN GERADO E SALVE PARA NÃO ESQUECER!!!</h3>
                 </p>
+<<<<<<< HEAD
                 <p>Feito isso, ainda em sua conta do github crie um novo repositório.</p>
             </div>
 
             <div className="Instruction">
                 <p>Criado o repositório remoto no Github, execute o seguinte comando em seu terminal do repositório local:</p>
+=======
+            </div>
+
+            <div className="Instruction">
+                <p>Feito isso, execute o seguinte comando:</p>
+>>>>>>> 229d8bed397ad814294b4bd915c8f290a08cbf46
                 <div className="Code">$ git remote add origin https://[código_token]@github.com/[login_github]/[nome_do_repositório_criado]</div>
                 <p>Ex:</p>
                 <div className="Code">$ git remote add origin https://aaa_AAaa0aAAAOAA00AaAaAaaAaaaAAaAa0aAAaO@github.com/meulogin/repositorio-teste</div>
