@@ -16,7 +16,7 @@ export default () => {
                 <p>Inserindo:</p>
                 <div className="Code" style={{background: '#464686', color: 'white'}}><p>oculto/</p><p>secreto/</p></div>
                 <p>O git passará a ignorar todos os arquivos que estiverem nas subpastas "oculto" e "secreto".</p>
-                <p>É importante adicionar uma subpasta por linha e não esquecer de adcionar as barras "/" junto aos nomes.</p>
+                <p>É importante adicionar uma subpasta por linha e não esquecer de adicionar as barras "/" junto aos nomes.</p>
             </div>
             <span className="Back">
                 <Arrows img="Back" link="/alts" />

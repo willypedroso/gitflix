@@ -11,6 +11,7 @@ import Ignore from "../content/Ignore";
 import Github from "../content/Github";
 import Clone from "../content/Clone";
 import Fork from "../content/Fork";
+import Tags from "../content/Tags";
 import './Main.css'
 
 export default props => {
@@ -28,6 +29,7 @@ export default props => {
                 <Route path="/github" element={<Github />} />
                 <Route path="/clone" element={<Clone />} />
                 <Route path="/fork" element={<Fork />} />
+                <Route path="/tags" element={<Tags />} />
             </Routes>
         </div>
     )

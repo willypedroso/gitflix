@@ -31,9 +31,10 @@ export default () => {
                 <p>É movendo o HEAD que se torna possível "navegar" pelo histórico de commits.</p>
             </div>
             <div className="Instruction">
-                <h3>Commit Key</h3>
-                <p>É a chave do commit composta por seis dígitos.</p>
-                <p>Com ela é possível mover o HEAD para um commit específico.</p>
+                <h3>Checksums de um commit</h3>
+                <p>São os identificadores de um commit.</p>
+                <p>É composto por 40 algarismos e normalmente abreviado pelos seus primeiros 7.</p>
+                <p>Com eles é possível apontar para um commit específico na hora de executar alguns comandos (mover o HEAD e criar tags, por exemplo).</p>
             </div>
             <span className="Back">
                 <Arrows img="Back" link="/init" />

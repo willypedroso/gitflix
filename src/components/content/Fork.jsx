@@ -70,7 +70,7 @@ export default () => {
                 <Arrows img="Back" link="/clone" />
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/" />
+                <Arrows img="Foward" link="/tags" />
             </span>
         </div>
     )

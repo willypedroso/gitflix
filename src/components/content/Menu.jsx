@@ -14,7 +14,8 @@ export default () => {
             <Cards link="/ignore" content="Git ignore"/>
             <Cards link="/github" content="Repositório Remoto (Github)"/>
             <Cards link="/clone" content="Clonando projetos"/>
-            <Cards link="/fork" content="Fork e colaboração open source"/>
+            <Cards link="/fork" content="Fork e colaboração em projetos"/>
+            <Cards link="/tags" content="Gerenciando Tags"/>
         </div>
     )
 }

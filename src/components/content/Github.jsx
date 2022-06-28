@@ -35,13 +35,16 @@ export default () => {
 
             <div className="Instruction">
                 <div className="Code">$ git push -u origin master</div>
-                <p>Envia seu branch master do repositório local para a origin do repositório remoto.</p>
+                <p>Envia seu branch master do repositório local para o origin a define o branch master como padrão.</p>
+                <p><em>Origin é o nome do seu repositório remoto no git.</em></p>
                 <p><code>-u</code> é atalho para <code>--set-upstream</code> que define o branch como uso padrão do origin.</p>
             </div>
 
             <div className="Instruction">
                 <div className="Code">$ git push</div>
                 <p>Envia seu branch definido como padrão do repositório local para o origin do repositório remoto.</p>
+                <p>Obs: Se atentar que normalmente o branch padrão de envio para o origin é o branch master (ou main).</p>
+                <p>Caso você tenha criado um novo branch e queira enviar para o repositório remoto, deverá especificar o branch no comando.</p>
             </div>
             <h1>PUXANDO COMMITS REMOTOS</h1>
 
