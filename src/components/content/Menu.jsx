@@ -16,6 +16,8 @@ export default () => {
             <Cards link="/clone" content="Clonando projetos"/>
             <Cards link="/fork" content="Fork e colaboração em projetos"/>
             <Cards link="/tags" content="Gerenciando Tags"/>
+            <Cards link="/branch" content="Gerenciando Branches"/>
+            <Cards link="/merge" content="Gerenciando Merges"/>
         </div>
     )
 }

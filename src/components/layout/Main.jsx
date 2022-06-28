@@ -12,6 +12,8 @@ import Github from "../content/Github";
 import Clone from "../content/Clone";
 import Fork from "../content/Fork";
 import Tags from "../content/Tags";
+import Branch from "../content/Branch";
+import Merge from "../content/Merge";
 import './Main.css'
 
 export default props => {
@@ -30,6 +32,8 @@ export default props => {
                 <Route path="/clone" element={<Clone />} />
                 <Route path="/fork" element={<Fork />} />
                 <Route path="/tags" element={<Tags />} />
+                <Route path="/branch" element={<Branch />} />
+                <Route path="/merge" element={<Merge />} />
             </Routes>
         </div>
     )
