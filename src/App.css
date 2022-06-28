@@ -1,7 +1,9 @@
 footer {
+  font-family: monospace;
   text-align: center;
   margin: 20px;
   font-weight: 300;
+  padding: 10px;
 }
 
 footer a {

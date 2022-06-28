@@ -14,6 +14,7 @@ import Fork from "../content/Fork";
 import Tags from "../content/Tags";
 import Branch from "../content/Branch";
 import Merge from "../content/Merge";
+import Nav from "../content/Nav";
 import './Main.css'
 
 export default props => {
@@ -34,6 +35,7 @@ export default props => {
                 <Route path="/tags" element={<Tags />} />
                 <Route path="/branch" element={<Branch />} />
                 <Route path="/merge" element={<Merge />} />
+                <Route path="/nav" element={<Nav />} />
             </Routes>
         </div>
     )

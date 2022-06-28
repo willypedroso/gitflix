@@ -12,12 +12,13 @@ export default () => {
             <Cards link="/commit" content="Commit de arquivos"/>
             <Cards link="/alts" content="Visualizando alterações"/>
             <Cards link="/ignore" content="Git ignore"/>
-            <Cards link="/github" content="Repositório Remoto (Github)"/>
+            <Cards link="/github" content="Repositórios Remotos"/>
             <Cards link="/clone" content="Clonando projetos"/>
             <Cards link="/fork" content="Fork e colaboração em projetos"/>
             <Cards link="/tags" content="Gerenciando Tags"/>
             <Cards link="/branch" content="Gerenciando Branches"/>
             <Cards link="/merge" content="Gerenciando Merges"/>
+            <Cards link="/nav" content="Navegando pelos snapshots"/>
         </div>
     )
 }

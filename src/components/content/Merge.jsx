@@ -15,8 +15,7 @@ export default () => {
             </div>
 
             <div className="Instruction">
-                <p>Se após o comando de merge o git der mensagem de conflito</p>
-                <p>Será necessário verificar os códigos, desfazer os conflitos e dar commit para que o merge seja executado.</p>
+                <p>Se após o comando de merge o git der mensagem de conflito, será necessário verificar os códigos, desfazer os conflitos e dar commit para que o merge seja executado.</p>
                 <p>ou</p>
                 <div className="Code">$ git merge --abort</div>
                 <p>Comando para cancelar o merge.</p>
@@ -30,7 +29,7 @@ export default () => {
                 <Arrows img="Back" link="/branch" />
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/" />
+                <Arrows img="Foward" link="/nav" />
             </span>
         </div>
     )
