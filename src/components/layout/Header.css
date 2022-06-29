@@ -1,9 +1,9 @@
 .Header h1{
-    color: red;
+    color: #E50914;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 8rem;
     text-align: center;
-    text-shadow: 8px 8px 3px black;
+    text-shadow: 8px 8px 3px #000000;
     margin-top: 20px;
 }
 

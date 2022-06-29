@@ -9,7 +9,7 @@
 }
 
 body {
-      background-image: linear-gradient(black, red);
+      background-image: linear-gradient(#000000, #E50914);
       background-size: cover;
       min-height: 98vh;
   }
