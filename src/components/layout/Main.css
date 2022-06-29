@@ -113,3 +113,8 @@
   position: absolute;
   left: 53%;
 }
+
+.footcontent {
+  text-align: center;
+  font-size: .8rem;
+}

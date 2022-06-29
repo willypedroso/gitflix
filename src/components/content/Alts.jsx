@@ -14,7 +14,7 @@ export default () => {
                 <p>Aponta um arquivo específico monitorado pelo git para exibir as alterações que ainda não foram adicionadas ao index em comparação com as que foram adicionadas.</p>
 
                 <div className="Code">$ git diff HEAD</div>
-                <p>Exibe tudo o que foi alterado nos arquivos monitorados pelo git que estão no index e no working directory que ainda não foram commitados em comparção com o último commit.</p>
+                <p>Exibe tudo o que foi alterado nos arquivos monitorados pelo git que estão no index e no working directory que ainda não foram commitados em comparação com o último commit.</p>
 
                 <div className="Code">$ git diff --staged</div>
                 <p>Exibe tudo o que foi alterado nos arquivos monitorados pelo git que estão no index e que ainda não foram commitados em comparção com o último commit.</p>
@@ -30,7 +30,10 @@ export default () => {
                 <p>Ex:</p>
                 <div className="Code">$ git log -p -3</div>
                 <p>Exibirá todas as alterações dos três últimos commits.</p>
-                <p>[Obs: usar as setas para navegar pela exibição dos arquivos modificados e pressionar "Q" para sair].</p>
+            </div>
+            <div className="Instruction">
+                <h4>Obs:</h4>
+                <p>Usar as setas para navegar pela exibição dos arquivos modificados e pressionar "Q" para sair.</p>
             </div>
 
             <h1>Gitk</h1>
@@ -48,6 +51,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/ignore" />
             </span>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

@@ -72,6 +72,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/tags" />
             </span>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

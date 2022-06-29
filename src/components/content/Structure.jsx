@@ -35,6 +35,7 @@ export default () => {
                 <p>São os identificadores dos commits.</p>
                 <p>É composto por 40 algarismos e normalmente abreviado pelos seus primeiros 7.</p>
                 <p>Com eles é possível apontar para um commit específico na hora de executar alguns comandos (mover o HEAD e criar tags, por exemplo).</p>
+                <p>Com o comando <code>$ git log --oneline</code> é possível visualizar o checksum de todos os commits do repositório de forma abreviada.</p>
             </div>
             <span className="Back">
                 <Arrows img="Back" link="/init" />
@@ -42,6 +43,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/add" />
             </span>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

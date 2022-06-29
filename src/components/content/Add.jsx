@@ -22,7 +22,7 @@ export default () => {
                 <div className="Code">$ git checkout (nome do arquivo)</div>
                 <p>ou</p>
                 <div className="Code">$ git restore (nome do arquivo)</div>
-                <p>Desfaz as alterações do arquivo informado no Working Directory. O arquivo será restaurado ao último estágio adicionado ao index.</p>
+                <p>Desfaz as alterações do arquivo informado no working directory. O arquivo será restaurado ao último estágio adicionado ao index.</p>
             </div>
 
 
@@ -30,7 +30,7 @@ export default () => {
                 <div className="Code">$ git checkout .</div>
                 <p>ou</p>
                 <div className="Code">$ git restore .</div>
-                <p>Desfaz todas as alterações do Working Directory e restaura todos os arquivos ao último estágio adicionado ao index.</p>
+                <p>Desfaz todas as alterações do working directory e restaura todos os arquivos ao último estágio adicionado ao index.</p>
             </div>
 
 
@@ -38,7 +38,7 @@ export default () => {
                 <div className="Code">$ git reset (nome do arquivo)</div>
                 <p>ou</p>
                 <div className="Code">$ git restore --staged (nome do arquivo)</div>
-                <p>Retira do index o arquivo informado (ou alterações efetuadas no arquivo) mantendo o mesmo no Working Directory.</p>
+                <p>Retira do index o arquivo informado (ou alterações efetuadas no arquivo) mantendo o mesmo no working directory.</p>
             </div>
 
 
@@ -46,7 +46,7 @@ export default () => {
                 <div className="Code">$ git reset .</div>
                 <p>ou</p>
                 <div className="Code">$ git restore --staged .</div>
-                <p>Retira todos os arquivos (ou alterações efetuadas nos arquivos) que estão no index, mantendo-os no Working Directory.</p>
+                <p>Retira todos os arquivos (ou alterações efetuadas nos arquivos) que estão no index, mantendo-os no working directory.</p>
             </div>
 
 
@@ -61,6 +61,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/commit" />
             </span>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

@@ -8,4 +8,8 @@ Para ajudar desde o iniciante a aprender os comandos mais básicos do git aos ma
 
 Colaborações com o projeto serão bem-vindas.
 
-**Projeto em sua versão Beta - ainda não finalizado**
+Se algo estiver errado no site, favor abrir uma issue para que seja corrigido o mais rápido possível.
+
+**Projeto em sua versão 1.0**
+
+_Para informações confiáveis e adicionais, sempre consultar a [documentação oficial do Git](https://git-scm.com/doc)_

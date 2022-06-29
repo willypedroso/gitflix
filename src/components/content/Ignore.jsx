@@ -8,7 +8,7 @@ export default () => {
 
             <div className="Instruction">
                 <div className="Code">$ touch .gitignore</div>
-                <p>Cria um arquivo (por padrão oculto em sistemas Linux) no diretorio onde poderão ser inseridos os nomes das subpastas que não devem ser monitoradas pelo git.</p>
+                <p>Cria um arquivo (por padrão oculto em sistemas Linux) no diretório onde poderão ser inseridos os nomes das subpastas que não devem ser monitoradas pelo git.</p>
                 <p>Basta abrir o arquivo .gitignore com algum editor de texto e dentro dele inserir o nome seguido de barra "/" das subpastas que devem ser ignoradas/não monitoradas pelo git.</p>
                 <p>Ex:</p>
                 <div className="Code">$ gedit .gitignore</div>
@@ -24,6 +24,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/github" />
             </span>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }
