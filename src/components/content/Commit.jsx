@@ -48,13 +48,13 @@ export default () => {
                 <p>Move o HEAD para o commit apontado.</p>
                 <p>Todas as alterações realizadas nos commits posteriores ao apontado passam para o working directory.</p>
                 <p>Qualquer arquivo ou alteração que estiver no index passa também para o working directory.</p>
-                <p><code>--mixed</code> é o comando padrão do <code>$git reset</code> (será utilizado se não especificado algum outro).</p>
+                <p><code>--mixed</code> é o comando padrão do <code>$ git reset</code> (será utilizado se não especificado algum outro).</p>
             </div>
 
             <div className="Instruction">
                 <div className="Code">$ git reset --hard (checksum-do-commit)</div>
                 <p>Move o HEAD para o commit apontado.</p>
-                <p>Apaga todos os arquivos e alterações de arquivos efetuados nos commits posteriores ao commit key indicado.</p>
+                <p>Apaga todos os arquivos e alterações de arquivos efetuados nos commits posteriores ao commit indicado.</p>
                 <p>Comando <code>--hard</code> apaga tudo o que estiver no index e no working directory.</p>
                 <p><strong>USAR ESTE COMANDO COM CUIDADO!</strong> Após apagadas, as alterações e arquivos não poderão ser restaurados.</p>
             </div>
