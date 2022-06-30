@@ -35,7 +35,7 @@ export default () => {
 
 
             <div className="Instruction">
-                <div className="Code">$ git reset --soft (commit key)</div>
+                <div className="Code">$ git reset --soft (checksum-do-commit)</div>
                 <p>Move o HEAD para o commit apontado.</p>
                 <p>Todas as alterações realizadas nos commits posteriores a esse passam para o index. Assim é possível refazer o commit.</p>
                 <p>Normalmente é usado quando dois ou mais pequenos commits podem ser unificados em um só commit.</p>
@@ -44,7 +44,7 @@ export default () => {
 
 
             <div className="Instruction">
-                <div className="Code">$ git reset --mixed (commit key)</div>
+                <div className="Code">$ git reset --mixed (checksum-do-commit)</div>
                 <p>Move o HEAD para o commit apontado.</p>
                 <p>Todas as alterações realizadas nos commits posteriores ao apontado passam para o working directory.</p>
                 <p>Qualquer arquivo ou alteração que estiver no index passa também para o working directory.</p>
@@ -52,11 +52,17 @@ export default () => {
             </div>
 
             <div className="Instruction">
-                <div className="Code">$ git reset --hard (commit_key)</div>
+                <div className="Code">$ git reset --hard (checksum-do-commit)</div>
                 <p>Move o HEAD para o commit apontado.</p>
                 <p>Apaga todos os arquivos e alterações de arquivos efetuados nos commits posteriores ao commit key indicado.</p>
                 <p>Comando <code>--hard</code> apaga tudo o que estiver no index e no working directory.</p>
                 <p><strong>USAR ESTE COMANDO COM CUIDADO!</strong> Após apagadas, as alterações e arquivos não poderão ser restaurados.</p>
+            </div>
+
+            <div className="Instruction">
+                <p>Para descobrir o checksum do commit que deseja, basta dar o comando:</p>
+                <div className="Code">$ git log --oneline</div>
+                <p>O checksum do commit são os 7 algarismos que aparecem à esquerda de cada commit.</p>
             </div>
 
             <div className="Instruction">
