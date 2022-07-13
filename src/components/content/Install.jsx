@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Install = () => {
     return (
         <div className="Content FirstContent">
             <h1>INSTALAÇÃO E CONFIGURAÇÃO</h1>

@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Fork = () => {
     return (
         <div className="Content">
             <h1>FAZENDO FORK E CONTRIBUINDO COM PROJETOS OPEN SOURCE</h1>

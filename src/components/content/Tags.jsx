@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Tags = () => {
     return (
         <div className="Content">
             <h1>CRIANDO TAGS (OU ETIQUETAS)</h1>
@@ -44,10 +44,10 @@ export default () => {
                 <p>Faz a exclusão da tag do repositório remoto (Github, Gitlab, etc).</p>
             </div>
             <span className="Back">
-                <Arrows img="Back" link="/fork" />
+                <Arrows img="Back" link="/fork"/>
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/" />
+                <Arrows img="Foward" link="/"/>
             </span>
             <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" rel="noopener noreferrer" target="_blank">documentação oficial do Git</a>.</p>
         </div>

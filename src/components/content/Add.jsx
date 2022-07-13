@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Add =  () => {
     return (
         <div className="Content">
             <h1>ADICIONANDO E REMOVENDO ARQUIVOS AO GIT</h1>

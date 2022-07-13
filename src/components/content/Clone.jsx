@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Clone = () => {
     return (
         <div className="Content">
             <h1>COPIANDO (CLONANDO) ALGUM REPOSITÓRIO EXISTENTE</h1>

@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Merge = () => {
     return (
         <div className="Content">
             <h1>UNINDO BRANCHES</h1>

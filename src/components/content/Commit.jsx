@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Commit = () => {
     return (
         <div className="Content">
             <h1>GERENCIANDO COMMIT DOS ARQUIVOS</h1>
