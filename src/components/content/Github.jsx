@@ -36,7 +36,7 @@ export default () => {
 
             <div className="Instruction">
                 <div className="Code">$ git push -u origin master</div>
-                <p>Envia seu branch master do repositório local para o origin a define o branch master como padrão.</p>
+                <p>Envia seu branch master do repositório local para o origin e define o branch master como padrão.</p>
                 <p><code>-u</code> é atalho para <code>--set-upstream</code> que define o branch como uso padrão do origin.</p>
             </div>
             
@@ -67,6 +67,14 @@ export default () => {
                 <div className="Code">$ git merge origin/master</div>
                 <p>Faz o mesmo que <code>$ git pull</code>, mas em dois comandos.</p>
             </div>
+
+            <h1>ATUALIZANDO TOKEN DO GITHUB</h1>
+            <div className="Instruction">
+            <h2>Eventualmente o seu token gerado pelo Github acabará perdendo a validade:</h2>
+            <p>Quando isso acontecer, se você quiser fazer um <code>$ git push</code> ou um <code>$ git pull</code> em seu projeto, será necessário gerar um novo token (da mesma forma que foi gerado o primeiro token) e executar novamente o comando para relacionar seu repositório local ao seu repositório remoto, no entanto, trocando <code>add</code> por <code>set-url</code>:</p>
+            <div className="Code">$ git remote set-url origin https://[código_token]@github.com/[login_github]/[nome_do_repositório_criado]</div>
+            </div>
+            
             <h1>OUTRAS PLATAFORMAS DE HOSPEDAGEM</h1>
             <div className="Instruction">
                 <p>Os comandos para enviar os repositórios locais para outras plataformas de hospedagem de repositórios remotos que não sejam o Github (<a href="https://gitlab.com/" target="_blank">Gitlab</a> ou <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>, por exemplo) costumam ser basicamente os mesmos de modo geral. Mas é importante entrar na própria plataforma de hospedagem para se informar, pois os procedimentos de segurança (geração de token, por exemplo) costumam mudar.</p>
