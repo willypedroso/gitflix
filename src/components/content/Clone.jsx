@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Clone = () => {
     return (
         <div className="Content">
             <h1>COPIANDO (CLONANDO) ALGUM REPOSITÓRIO EXISTENTE</h1>
@@ -25,7 +25,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/fork" />
             </span>
-            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" rel="noopener noreferrer" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

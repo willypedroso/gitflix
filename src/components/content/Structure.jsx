@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Structure = () => {
     return (
         <div className="Content">
             <h1>ESTRUTURA DO GIT</h1>
@@ -38,12 +38,12 @@ export default () => {
                 <p>Com o comando <code>$ git log --oneline</code> é possível visualizar o checksum de todos os commits do repositório de forma abreviada.</p>
             </div>
             <span className="Back">
-                <Arrows img="Back" link="/init" />
+                <Arrows img="Back" link="/init"/>
             </span>
             <span className="Foward">
-                <Arrows img="Foward" link="/add" />
+                <Arrows img="Foward" link="/add"/>
             </span>
-            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" rel="noopener noreferrer" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

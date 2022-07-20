@@ -1,7 +1,7 @@
 import React from "react";
-import Arrows from "./Arrows";
+import { Arrows } from "./Arrows";
 
-export default () => {
+export const Github = () => {
     return (
         <div className="Content">
             <h1>ENVIANDO UM PROJETO PARA UM REPOSITÓRIO REMOTO GITHUB </h1>
@@ -9,7 +9,7 @@ export default () => {
 
             <div className="Instruction">
                 <h2>Se o repositório remoto usado for o Github, seguir os seguintes passos:</h2>
-                <p>Primeiramente acesse sua conta do <a href="https://github.com" target="_blank">github</a> pelo navegador e vá em:
+                <p>Primeiramente acesse sua conta do <a href="https://github.com" rel="noopener noreferrer" target="_blank">github</a> pelo navegador e vá em:
                     <ul style={{margin: '25px'}}>
                         <li>Menu (normalmente no canto superior direito da tela, em sua foto de perfil do Github)</li>
                         <li>Settings (normalmente a penúltima opção de cima para baixo)</li>
@@ -77,7 +77,7 @@ export default () => {
             
             <h1>OUTRAS PLATAFORMAS DE HOSPEDAGEM</h1>
             <div className="Instruction">
-                <p>Os comandos para enviar os repositórios locais para outras plataformas de hospedagem de repositórios remotos que não sejam o Github (<a href="https://gitlab.com/" target="_blank">Gitlab</a> ou <a href="https://bitbucket.org/" target="_blank">Bitbucket</a>, por exemplo) costumam ser basicamente os mesmos de modo geral. Mas é importante entrar na própria plataforma de hospedagem para se informar, pois os procedimentos de segurança (geração de token, por exemplo) costumam mudar.</p>
+                <p>Os comandos para enviar os repositórios locais para outras plataformas de hospedagem de repositórios remotos que não sejam o Github (<a href="https://gitlab.com/" rel="noopener noreferrer" target="_blank">Gitlab</a> ou <a href="https://bitbucket.org/" rel="noopener noreferrer" target="_blank">Bitbucket</a>, por exemplo) costumam ser basicamente os mesmos de modo geral. Mas é importante entrar na própria plataforma de hospedagem para se informar, pois os procedimentos de segurança (geração de token, por exemplo) costumam mudar.</p>
             </div>
             <span className="Back">
                 <Arrows img="Back" link="/ignore" />
@@ -85,7 +85,7 @@ export default () => {
             <span className="Foward">
                 <Arrows img="Foward" link="/clone" />
             </span>
-            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" target="_blank">documentação oficial do Git</a>.</p>
+            <p className="footcontent">Para informações confiáveis e adicionais, sempre consultar a <a href="https://git-scm.com/doc" rel="noopener noreferrer" target="_blank">documentação oficial do Git</a>.</p>
         </div>
     )
 }

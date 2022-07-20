@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom'
 import './Header.css'
 
-export default props => {
+export const Header = () => {
     return (
         <div className="Header">
             <Link to='/'>
