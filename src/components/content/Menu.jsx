@@ -1,8 +1,8 @@
 import React from "react";
-import Cards from "../content/Cards";
+import { Cards } from "../content/Cards";
 import './Menu.css'
 
-export default () => {
+export const Menu = () => {
     return (
         <div id='Menu'>
             <Cards link="/install" content="Instalação e configuração"/>
