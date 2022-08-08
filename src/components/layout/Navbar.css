@@ -23,13 +23,13 @@
     justify-content: center;
     position: fixed;
     top: -100%;
-    left: 0;
-    transition: 850ms;
+    left: -100%;
 }
 
 .nav-menu.active {
     position: relative;
     height: 100%;
+    left: 0;
 }
 
 .nav-text {
