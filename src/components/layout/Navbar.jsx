@@ -20,11 +20,6 @@ export function Navbar() {
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className="nav-menu-items">
-                {/* <li className="navbar-toggle">
-                    <Link to='#' className='menu-bars'>
-                        <AiIcons.AiOutlineClose onClick={showSidebar}/>
-                    </Link>
-                </li> */}
                 {SidebarData.map((item, index) => {
                     return (
                         <li key={index} className={item.cName}>
