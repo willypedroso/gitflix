@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Commit = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>GERENCIANDO COMMIT DOS ARQUIVOS</h1>
 
             <div className="Instruction">

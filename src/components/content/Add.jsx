@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Add =  () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>ADICIONANDO E REMOVENDO ARQUIVOS AO GIT</h1>
 
             <div className="Instruction">

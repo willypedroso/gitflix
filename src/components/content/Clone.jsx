@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Clone = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>COPIANDO (CLONANDO) ALGUM REPOSITÓRIO EXISTENTE</h1>
 
             <div className="Instruction">

@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Merge = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>UNINDO BRANCHES</h1>
 
             <div className="Instruction">

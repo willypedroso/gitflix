@@ -55,18 +55,6 @@
   overflow: auto;
 }
 
-.Content a {
-  text-decoration: none;
-  color: black;
-  font-weight: 600;
-  padding: 3px;
-  background-color: #808080d0;
-  border-radius: 5px;
-}
-
-.Content a:hover {
-  background-color: #ff000089;
-}
 
 .Instruction {
   max-width: 880px;
@@ -117,4 +105,17 @@
 .footcontent {
   text-align: center;
   font-size: .8rem;
+}
+
+.footcontent a, .Instruction a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 3px;
+  background-color: #808080d0;
+  border-radius: 5px;
+}
+
+.footcontent a:hover, .Instruction a:hover {
+  background-color: #ff000089;
 }

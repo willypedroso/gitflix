@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Nav = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>NAVEGANDO ENTRE SNAPSHOTS DOS COMMITS</h1>
 
             <div className="Instruction">

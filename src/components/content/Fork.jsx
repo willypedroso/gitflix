@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Fork = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>FAZENDO FORK E CONTRIBUINDO COM PROJETOS OPEN SOURCE</h1>
 
             <div className="Instruction">

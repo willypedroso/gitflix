@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Structure = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>ESTRUTURA DO GIT</h1>
 
             <h2>Assim que o git é inicializado, o repositório passa a ter três áreas:</h2>

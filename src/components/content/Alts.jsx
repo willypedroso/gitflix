@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Alts = () => {
     return (
         <div className="Content">
+            <Navbar/>
             <h1>VERIFICANDO ALTERAÇÕES NO REPOSITÓRIO</h1>
 
             <div className="Instruction">

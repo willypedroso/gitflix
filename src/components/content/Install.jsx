@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar } from "../layout/Navbar";
 import { Arrows } from "./Arrows";
 
 export const Install = () => {
     return (
-        <div className="Content FirstContent">
+        <div className="Content">
+            <Navbar/>
             <h1>INSTALAÇÃO E CONFIGURAÇÃO</h1>
 
             <div className="Instruction">
