@@ -5,13 +5,14 @@
     display: flex;
     flex: start;
     align-items: center;
+    cursor: pointer;
 }
 
 .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
-    color: black;
+    color: white;
 }
 
 .nav-menu {
