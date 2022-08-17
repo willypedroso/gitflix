@@ -16,7 +16,7 @@ export function Navbar() {
             <Link to="#" className="menu-bars">
                 <FaIcons.FaBars />
             </Link>
-            <h1 style={{marginTop: '25px', marginLeft: '10px', color: 'white'}}>Menu</h1>
+            <h1 style={{marginTop: '25px', marginLeft: '10px'}}>Menu</h1>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className="nav-menu-items">
