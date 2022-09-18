@@ -44,6 +44,19 @@
   line-height: 2rem;
 }
 
+#soOption {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+#soOption select {
+  background-color: #000000bb;
+  color: #3ef710;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
 .Code {
   background-color: #000000bb;
   color: #3ef710;
