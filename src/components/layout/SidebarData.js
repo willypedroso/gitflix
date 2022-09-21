@@ -9,7 +9,7 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Instalação',
+        title: 'Instalação e configuração',
         path: '/install',
         icon: <IoIcons.IoIosArrowForward/>,
         cName: 'nav-text'
@@ -21,7 +21,7 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Estrutura',
+        title: 'Estrutura git',
         path: '/structure',
         icon: <IoIcons.IoIosArrowForward/>,
         cName: 'nav-text'
@@ -33,13 +33,13 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Commit',
+        title: 'Commits',
         path: '/commit',
         icon: <IoIcons.IoIosArrowForward/>,
         cName: 'nav-text'
     },
     {
-        title: 'Visualizando alterações',
+        title: 'Visualizar alterações',
         path: '/alts',
         icon: <IoIcons.IoIosArrowForward/>,
         cName: 'nav-text'
