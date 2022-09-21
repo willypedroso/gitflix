@@ -1,7 +1,7 @@
 [![Gitflix](./gitflix-logo.png)](https://gitflix-br.vercel.app)
 
 ***
-### Sobre
+### Sobre:
 
 Site desenvolvido para auxiliar no aprendizado de Git.
 
