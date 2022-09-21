@@ -11,4 +11,5 @@ Para colaborações e correções, favor abrir uma issue.
 _Para informações confiáveis e adicionais, sempre consultar a [documentação oficial do Git](https://git-scm.com/doc)_
 
 ### Tecnologias utilizadas no projeto
--  React JS
+- React
+- Node.js
