@@ -11,8 +11,8 @@ Para colaborações e correções, favor abrir uma issue.
 
 ### Índice:
 
-- Instalação e configuração(https://gitflix-br.vercel.app/install)
-- Inicialização(https://gitflix-br.vercel.app/init)
+- [Instalação e configuração](https://gitflix-br.vercel.app/install)
+- [Inicialização](https://gitflix-br.vercel.app/init)
 
 _Para informações confiáveis e adicionais, sempre consultar a [documentação oficial do Git](https://git-scm.com/doc)_
 
