@@ -1,4 +1,4 @@
-[![Gitflix](./gitflix-logo.png)](https://gitflix-br.vercel.app)
+<div align="center">[![Gitflix](./gitflix-logo.png)](https://gitflix-br.vercel.app)</div>
 
 ***
 ### Sobre:
