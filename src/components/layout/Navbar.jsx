@@ -14,9 +14,9 @@ export function Navbar() {
         <>
         <div className="navbar" onClick={showSidebar}>
             <Link to="#" className="menu-bars">
-                <FaIcons.FaBars />
+                {sidebar ? <FaIcons.FaWindowClose /> : <FaIcons.FaBars />}
             </Link>
-            <h1 style={{marginTop: '25px', marginLeft: '10px'}}>Menu</h1>
+            <h1 style={{marginTop: '25px', marginLeft: '10px'}}>{sidebar ? "Close Menu" : "Menu"}</h1>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <ul className="nav-menu-items">
