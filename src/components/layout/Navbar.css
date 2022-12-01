@@ -6,6 +6,8 @@
     flex: start;
     align-items: center;
     cursor: pointer;
+    position: sticky;
+    top: 0px;
 }
 
 .menu-bars {
@@ -28,7 +30,8 @@
 }
 
 .nav-menu.active {
-    position: relative;
+    position: sticky;
+    top: 70px;
     height: 100%;
     left: 0;
 }

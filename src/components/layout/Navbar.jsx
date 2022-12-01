@@ -8,7 +8,10 @@ import './Navbar.css'
 export function Navbar() {
     const [sidebar, setSidebar] = useState(false);
     
-    const showSidebar = () => setSidebar(!sidebar);
+    const showSidebar = () => {
+        setSidebar(!sidebar);
+        window.scrollTo(0);
+    };
 
     return (
         <>
