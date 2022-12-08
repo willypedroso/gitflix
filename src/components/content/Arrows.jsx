@@ -1,12 +1,15 @@
 import React from "react";
-import Back from "../../red-arrow-back.png";
-import Foward from "../../red-arrow-foward.png";
+import { RiArrowGoBackFill, RiArrowGoForwardFill } from "react-icons/ri";
 
 export const Arrows = (props) => {
-    const image = props.img === "Back" ? Back : Foward;
-    const image_alt = props.alt === undefined ? props.img + " arrow image" : props.alt;
     
     return (
-            <a href={props.link}><img src={image} alt={image_alt}/></a>
+            <a href={props.link}>{props.img === "Back" ?
+                <abbr title="Go Back">
+                    <RiArrowGoBackFill style={{position: "absolute", left: "10%", fontSize: "2rem", color: "red"}}/>
+                </abbr> :
+                <abbr title="Go Foward">
+                    <RiArrowGoForwardFill style={{position: "absolute", right: "10%", fontSize: "2rem", color: "red"}}/></abbr>}</a>
+                
     )
 }

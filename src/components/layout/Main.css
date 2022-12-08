@@ -118,6 +118,7 @@
 .footcontent {
   text-align: center;
   font-size: .8rem;
+  margin-top: 20px;
 }
 
 .footcontent a, .Instruction a {
