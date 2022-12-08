@@ -32,7 +32,7 @@
 .nav-menu.active {
     position: sticky;
     top: 70px;
-    height: 100%;
+    max-height: 20rem;
     left: 0;
     overflow-y: scroll;
 }
